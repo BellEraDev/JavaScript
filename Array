@@ -1,4 +1,4 @@
-### Array.html
+### ArrayJS.html
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +9,7 @@
 </body>
 </html>
 
-### Array.js
+### ArrayJS.js
 let scores = [82, 75, 48, 64, 36];
 let passFailScores = scores.map((score) => {
     if (score >= 50) {
@@ -21,7 +21,7 @@ let passFailScores = scores.map((score) => {
 console.log(scores);
 console.log(passFailScores);
 
-### Array1.html
+### ArrayJS1.html
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,7 +32,7 @@ console.log(passFailScores);
 </body>
 </html>
 
-### Array1.js
+### ArrayJS1.js
 let scores = [82, 75, 48, 64, 36];
 let someonePassed = scores.some((score) => {
     return score >= 50;
